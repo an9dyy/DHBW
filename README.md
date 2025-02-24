@@ -1,60 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Website</title>
+    <title>Fußballer der Welt</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
         }
         header {
             background-color: #333;
-            color: #fff;
-            padding: 1em 0;
+            color: white;
+            text-align: center;
+            padding: 20px;
         }
-        nav ul {
-            list-style: none;
-            padding: 0;
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
         }
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
+        .player {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
         }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
+        .player img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
         }
-        section {
-            padding: 2em;
+        .player-info {
+            flex-grow: 1;
         }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 1em 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        .player-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .player-position {
+            font-size: 18px;
+            color: #666;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to the Demo Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    Calvin
-    
+<header>
+    <h1>Bekannte Fußballer der Welt</h1>
+</header>
+
+<div class="container">
+    <div class="player">
+        <img src="https://example.com/player1.jpg" alt="Fußballer 1">
+        <div class="player-info">
+            <div class="player-name">Lionel Messi</div>
+            <div class="player-position">Stürmer - Paris Saint-Germain</div>
+        </div>
+    </div>
+    <div class="player">
+        <img src="https://example.com/player2.jpg" alt="Fußballer 2">
+        <div class="player-info">
+            <div class="player-name">Cristiano Ronaldo</div>
+            <div class="player-position">Stürmer - Al Nassr</div>
+        </div>
+    </div>
+    <div class="player">
+        <img src="https://example.com/player3.jpg" alt="Fußballer 3">
+        <div class="player-info">
+            <div class="player-name">Neymar Jr.</div>
+            <div class="player-position">Stürmer - Al Hilal</div>
+        </div>
+    </div>
+    <div class="player">
+        <img src="https://example.com/player4.jpg" alt="Fußballer 4">
+        <div class="player-info">
+            <div class="player-name">Kylian Mbappé</div>
+            <div class="player-position">Stürmer - Paris Saint-Germain</div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
