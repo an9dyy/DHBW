@@ -3,88 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fußballer der Welt</title>
+    <title>Unnötige Website</title>
     <style>
+        @keyframes colorChange {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: yellow; }
+            100% { color: red; }
+        }
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: white;
+            font-family: Comic Sans MS, cursive, sans-serif;
+            background: linear-gradient(45deg, pink, lightblue, yellow);
             text-align: center;
-            padding: 20px;
+            overflow: hidden;
         }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 10px;
-        }
-        .player {
-            display: flex;
-            align-items: center;
-            margin: 20px 0;
-        }
-        .player img {
-            border-radius: 50%;
-            width: 100px;
-            height: 100px;
-            margin-right: 20px;
-        }
-        .player-info {
-            flex-grow: 1;
-        }
-        .player-name {
-            font-size: 24px;
+        .blink {
+            font-size: 50px;
             font-weight: bold;
+            animation: colorChange 2s infinite;
         }
-        .player-position {
-            font-size: 18px;
-            color: #666;
+        .marquee {
+            font-size: 20px;
+            font-style: italic;
+            color: purple;
+            animation: moveText 5s linear infinite;
+        }
+        @keyframes moveText {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        .useless-button {
+            font-size: 20px;
+            padding: 10px 20px;
+            background-color: lime;
+            border: 5px dotted red;
+            cursor: not-allowed;
         }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Bekannte Fußballer der Welt</h1>
-</header>
-
-<div class="container">
-    <div class="player">
-        <img src="https://example.com/player1.jpg" alt="Lionel Messi">
-        <div class="player-info">
-            <div class="player-name">Lionel Messi</div>
-            <div class="player-position">Stürmer - Paris Saint-Germain</div>
-        </div>
-    </div>
-    <div class="player">
-        <img src="https://example.com/player2.jpg" alt="Cristiano Ronaldo">
-        <div class="player-info">
-            <div class="player-name">Cristiano Ronaldo</div>
-            <div class="player-position">Stürmer - Al Nassr</div>
-        </div>
-    </div>
-    <div class="player">
-        <img src="https://example.com/player3.jpg" alt="Neymar Jr.">
-        <div class="player-info">
-            <div class="player-name">Neymar Jr.</div>
-            <div class="player-position">Stürmer - Al Hilal</div>
-        </div>
-    </div>
-    <div class="player">
-        <img src="https://example.com/player4.jpg" alt="Kylian Mbappé">
-        <div class="player-info">
-            <div class="player-name">Kylian Mbappé</div>
-            <div class="player-position">Stürmer - Paris Saint-Germain</div>
-        </div>
-    </div>
-</div>
-
+    <h1 class="blink">Willkommen auf der unnötigsten Website!</h1>
+    <marquee class="marquee">Hier gibt es nichts Sinnvolles zu sehen...</marquee>
+    <p>Klick nicht auf diesen Button! Er tut nichts!</p>
+    <button class="useless-button">Nicht klicken!</button>
+    <img src="https://placekitten.com/300/200" alt="Unnötiges Katzenbild">
+    <audio autoplay loop>
+        <source src="https://www.myinstants.com/media/sounds/trololo.mp3" type="audio/mpeg">
+    </audio>
 </body>
 </html>
