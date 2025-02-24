@@ -54,23 +54,7 @@
         </nav>
     </header>
 
-    <section id="home">
-        <h2>Home</h2>
-        <p>This is a simple demo website created using HTML and CSS.</p>
-    </section>
-
-    <section id="about">
-        <h2>About</h2>
-        <p>This demo showcases a basic structure of a website with a header, navigation, content sections, and a footer.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach us at <a href="mailto:info@demo.com">info@demo.com</a>.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Demo Website. All rights reserved.</p>
-    </footer>
+    Calvin
+    
 </body>
 </html>
