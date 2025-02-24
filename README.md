@@ -57,28 +57,28 @@
 
 <div class="container">
     <div class="player">
-        <img src="https://example.com/player1.jpg" alt="Fußballer 1">
+        <img src="https://example.com/player1.jpg" alt="Lionel Messi">
         <div class="player-info">
             <div class="player-name">Lionel Messi</div>
             <div class="player-position">Stürmer - Paris Saint-Germain</div>
         </div>
     </div>
     <div class="player">
-        <img src="https://example.com/player2.jpg" alt="Fußballer 2">
+        <img src="https://example.com/player2.jpg" alt="Cristiano Ronaldo">
         <div class="player-info">
             <div class="player-name">Cristiano Ronaldo</div>
             <div class="player-position">Stürmer - Al Nassr</div>
         </div>
     </div>
     <div class="player">
-        <img src="https://example.com/player3.jpg" alt="Fußballer 3">
+        <img src="https://example.com/player3.jpg" alt="Neymar Jr.">
         <div class="player-info">
             <div class="player-name">Neymar Jr.</div>
             <div class="player-position">Stürmer - Al Hilal</div>
         </div>
     </div>
     <div class="player">
-        <img src="https://example.com/player4.jpg" alt="Fußballer 4">
+        <img src="https://example.com/player4.jpg" alt="Kylian Mbappé">
         <div class="player-info">
             <div class="player-name">Kylian Mbappé</div>
             <div class="player-position">Stürmer - Paris Saint-Germain</div>
