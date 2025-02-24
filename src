@@ -1,8 +1,3 @@
-git checkout -b feature-xyz
-
-git add .
-git commit -m "Neue Änderungen"
-git push origin feature-xyz
-
+andy
 
 
