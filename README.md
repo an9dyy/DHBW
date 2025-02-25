@@ -3,53 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unnötige Website</title>
+    <title>Studium Elektrotechnik</title>
     <style>
-        @keyframes colorChange {
-            0% { color: red; }
-            25% { color: blue; }
-            50% { color: green; }
-            75% { color: yellow; }
-            100% { color: red; }
-        }
-        body {
-            font-family: Comic Sans MS, cursive, sans-serif;
-            background: linear-gradient(45deg, pink, lightblue, yellow);
-            text-align: center;
-            overflow: hidden;
-        }
-        .blink {
-            font-size: 50px;
-            font-weight: bold;
-            animation: colorChange 2s infinite;
-        }
-        .marquee {
-            font-size: 20px;
-            font-style: italic;
-            color: purple;
-            animation: moveText 5s linear infinite;
-        }
-        @keyframes moveText {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100%); }
-        }
-        .useless-button {
-            font-size: 20px;
-            padding: 10px 20px;
-            background-color: lime;
-            border: 5px dotted red;
-            cursor: not-allowed;
-        }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, nav, footer { background: #333; color: white; padding: 15px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { padding: 20px; text-align: center; }
+        img { max-width: 100%; height: auto; }
     </style>
 </head>
 <body>
-    <h1 class="blink">Willkommen auf der unnötigsten Website!</h1>
-    <marquee class="marquee">Hier gibt es nichts Sinnvolles zu sehen...</marquee>
-    <p>Klick nicht auf diesen Button! Er tut nichts!</p>
-    <button class="useless-button">Nicht klicken!</button>
-    <img src="https://placekitten.com/300/200" alt="Unnötiges Katzenbild">
-    <audio autoplay loop>
-        <source src="https://www.myinstants.com/media/sounds/trololo.mp3" type="audio/mpeg">
-    </audio>
+    <header>
+        <h1>Studium Elektrotechnik</h1>
+    </header>
+    <nav>
+        <a href="index.html">Startseite</a>
+        <a href="fächer.html">Fächer</a>
+        <a href="karriere.html">Karriere</a>
+    </nav>
+    <div class="container">
+        <h2>Willkommen zum Studium Elektrotechnik</h2>
+        <p>Das Studium der Elektrotechnik bietet spannende Möglichkeiten in verschiedenen Bereichen der Technik.</p>
+        <img src="elektrotechnik.jpg" alt="Elektrotechnik Studium">
+    </div>
+    <footer>
+        <p>&copy; 2025 Studium Elektrotechnik</p>
+    </footer>
 </body>
 </html>
